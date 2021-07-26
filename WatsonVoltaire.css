@@ -1,0 +1,108 @@
+body {
+  background-color: #fff;
+}
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1 {
+  font-family: 'Helvetica';
+  font-size: 26px;
+  font-weight:600;
+  color: #CCC;
+  padding-bottom: 10px;
+  margin-left: 25px;
+}
+
+h2 {
+  font-family: 'Helvetica';
+  font-size: 20px;
+  font-weight:600;
+  color: #FFF;
+  padding-top: 20px;
+  margin-left: 25px;
+}
+
+h3 {
+  font-family: 'Helvetica';
+  font-size: 18px;
+  font-weight:400;
+  color: #FFF;
+  margin-left: 25px;
+}
+
+#onButton,
+#offButton,
+#autostartButton,
+#gvoltButton,
+#gstateButton,
+#lvoltButton,
+#lstateButton {
+ display:inline-block;
+ background-color: #000000;
+ color: #2ED9FF;
+ padding:0.35em 1.2em;
+ border:0.1em solid #2ED9FF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family: 'Helvetica';
+ font-size: 20px;
+ font-weight:300;
+ text-decoration: none;
+ text-align:center;
+ transition: all 0.2s;
+ margin-left: 25px;
+}
+#onButton:hover,
+#offButton:hover,
+#autostartButton:hover,
+#gvoltButton:hover,
+#gstateButton:hover,
+#lvoltButton:hover,
+#lstateButton:hover {
+  color:#11cef7;
+  background-color:#454c4f;
+  margin-left: 27px;
+}
+
+#emergencyButton:hover {
+  color:#FFFFFF;
+  background-color:#FF0000;
+  margin-left: 27px;
+}
+
+#onButton:focus,
+#offButton:focus,
+#autostartButton:focus,
+#gvoltButton:focus,
+#gstateButton:focus,
+#lvoltButton:focus,
+#lstateButton:focus,
+#emergencyButton:focus {
+  outline:0;
+  //background-color: #d0d92e;
+}
+
+#emergencyButton {
+ display:inline-block;
+ background-color: #000000;
+ color: #ff0000;
+ padding:0.35em 1.2em;
+ border:0.1em solid #2ED9FF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family: 'Helvetica';
+ font-size: 20px;
+ font-weight:300;
+ text-decoration: none;
+ text-align:center;
+ transition: all 0.2s;
+ margin-left: 25px;
+}
